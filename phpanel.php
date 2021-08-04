@@ -43,7 +43,7 @@
             <label for="system">System</label>
             <input type="checkbox" name="system" value="true" <?php if(isset($_GET['system']) && $_GET['system'] == 'true'){echo "checked";}?>>
             <label for="passthrou">Passthru</label>
-            <input type="checkbox" name="passthru" value="true" <?php if(isset($_GET['passthrou']) && $_GET['passthrou'] == 'true'){echo "checked";}?>>
+            <input type="checkbox" name="passthru" value="true" <?php if(isset($_GET['passthru']) && $_GET['passthru'] == 'true'){echo "checked";}?>>
             <br>
             <button>Send in!</button>
         </form>
